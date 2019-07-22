@@ -1,0 +1,23 @@
+body {
+  background-image: url(hashi.png);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jogo {
+  height: 600px;
+  width: 600px;
+}
+.linhas {
+  height: 100px;
+  border: 15px;
+  color: red;
+}
+.casa {
+  display: inline-block;
+  border: solid 5px black;
+  height: 100%;
+  width: 94px;
+}
